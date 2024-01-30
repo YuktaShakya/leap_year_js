@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" name="year" id="t">
+    <button onclick="Lyear()">click</button>
+</body>
+<script>
+    function Lyear(){
+        let a;
+        a=parseInt(t.value);
+        if(a%100==0){
+
+            if(a%400==0){
+                alert("this is a leap year")
+            }
+            else{
+                alert("not a leap year")
+            }
+        }
+        else{
+            if(a%4==0){
+                alert("this is a leap year");
+            }
+            else{
+                alert("not a leap year")
+            }
+           
+        }
+    }
+</script>
+</html>
